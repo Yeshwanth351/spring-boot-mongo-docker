@@ -21,6 +21,7 @@
 		<sonar.host.url>http://18.118.148.151:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
                 <sonar.password>admin</sonar.password>
+		
 	</properties>
 
 	<dependencyManagement>
@@ -85,6 +86,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+                        <groupId>org.sonarsource.sonarqube</groupId>
+                        <artifactId>sonarqube</artifactId>
+                        <version>7.8</version>
+                        <type>pom</type>
+                </dependency>
 	</dependencies>
 	<build>
 		<plugins>
