@@ -86,13 +86,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-                        <groupId>org.sonarsource.sonarqube</groupId>
-                        <artifactId>sonarqube</artifactId>
-                        <version>7.0</version>
-                        <type>pom</type>
-                </dependency>
 	</dependencies>
 	<build>
 		<plugins>
